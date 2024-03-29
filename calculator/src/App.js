@@ -28,7 +28,7 @@ function App() {
   return (
     <div className={styles.container}>
       <h1>React Calculator</h1>
-      <input className={styles.input} value={data}/>
+      <input type="text" className={styles.input} value={data}/>
       <p>{evaluatedVal}</p>
       <div className={styles.buttonscontainer}>
         <button onClick={()=> handleClick('7')}>7</button>
